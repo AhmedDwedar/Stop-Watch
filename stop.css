@@ -1,0 +1,64 @@
+html body{
+    background: url(images/pension-3137209_1920.jpg) center center fixed;
+    background-size: cover;
+    color: white;
+}
+#header{
+
+    font-size: 7vw;
+    text-align: center;
+    font-family: 'Gochi Hand', cursive;
+    padding-top: 30px;
+    text-transform:uppercase;
+    color: white;
+}
+#lap{
+    text-align: right;
+    font-size: 4vw;
+    padding-right: 15px;
+    color: white;
+}
+#time{
+    text-align: center;
+    font-size: 10vw;
+    color:white;
+
+}
+/*control buttons*/
+#controlsContainer{
+    margin-bottom: 100px;
+}
+
+.btn-warning {
+    color:white;
+    background: rgba(51, 153, 255, 0.5);
+    border: none;
+    font-size: 3vw;
+    cursor: pointer;
+}
+
+.btn-warning:hover {
+    color: rgb(51, 153, 255);
+    background-color: white;
+    border-color: #d58512;
+}
+#laps{
+    max-height: 270px;
+/*element for navscroll*/
+    overflow-y: scroll;
+    
+}
+.lap{
+    height: 50px;
+    border-bottom: 1px solid white ;
+    margin:15px;
+}
+.laptimetitle{
+    font-size: 1.5em;
+    float: left;
+}
+
+.laptime{
+    font-size: 2em;
+    float: right;
+}
